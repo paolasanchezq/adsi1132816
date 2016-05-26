@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="es"></html>
+<head>
+  <meta charset="UTF-8">
+  <title>Listas ordenadas</title>
+</head>
+<body>
+  <ol>
+    <li>Presional (CTRL + SHIFT + SHIFT)</li>
+    <li>Escribir "Install"</li>
+    <li>Seleccional "Install Package"</li>
+    <li>Escribir "Emment" y Presionar (ENTER)</li>
+  </ol>
+</body>

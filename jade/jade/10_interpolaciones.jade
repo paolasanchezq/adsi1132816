@@ -1,0 +1,25 @@
+doctype
+html(lang="es")
+head
+  meta(charset="UTF-8")
+  title Interpolación (Jade)
+body
+  h1 Interpolación (Jade)
+  
+  - var title = "El perro: El mejor amigo del hombre";
+  - var author = "Paola";
+  - var theGreat = "<span>escape!</span>";
+
+  h1= title
+  p Escrito con amor por #{author}
+  p Este será seguro: #{theGreat}
+  
+  - var msg = "No es mi voz";
+  p Esta #{msg.toUpperCase()}
+  
+  - var riskyBusiness = "<em>Algunas de las chicas estan usando la ropa de mi madre.</em>";
+  .quote
+  p Joel: !{riskyBusiness}
+  p.
+  If si se echa un vistazo el la fuente de esta pagina #[a(target="_blank", href="https://github.com/jadejs/jade/blob/master/docs/views/reference/interpolation.jade") on GitHub],
+  vere varios lugares donde se utiliza el operqador de la etiqueta de interpolacion,como así.

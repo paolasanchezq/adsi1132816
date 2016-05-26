@@ -1,0 +1,17 @@
+doctype
+html(lang="es")
+  head
+    meta(charset="UTF-8")
+    title Casos| (jade)
+    body
+      h1 Casos (jade)
+    - var friends = 1
+  case friends
+    when 0
+      p Tu eres forever alone
+    when 1
+      p Tu eres negro
+    when 1000
+      p Tu eres muy cotizado
+    default
+      p Tu tienes #{amigos} amigos
